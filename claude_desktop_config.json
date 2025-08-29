@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "dify-mcp-bridge": {
+      "command": "node",
+      "args": [
+        "PATH_TO_INDEX/index.js"
+      ],
+      "env": {
+        "NODE_ENV": "production",
+        "DIFY_MCP_URL": "LINK_DIFY_MCP_SERVER",
+        "DIFY_MCP_TOKEN": "API_TOKEN",
+        "DIFY_MCP_TIMEOUT": "60000"
+      },
+      "transport": "stdio"
+    }
+  }
+}
